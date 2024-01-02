@@ -25,3 +25,7 @@ variable "key_name" {
 variable "instance_name" {
  default = "pocket-instance"
 }
+
+variable "ami_id" {
+ default = "ami-0ee4f2271a4df2d7d"
+}
