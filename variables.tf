@@ -35,5 +35,5 @@ variable "instance_name" {
 
 variable "ami_id" {
  type = string
- default = "ami-0ee4f2271a4df2d7d"
+ default = "ami-0c7217cdde317cfec"
 }
