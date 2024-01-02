@@ -6,7 +6,7 @@ variable "instance_type" {
  default = "t2.micro"
 }
 
-variable "security_groups" {
+variable "sg" {
  default = "sg-0cfbd7685166de5a4"
 }
 
