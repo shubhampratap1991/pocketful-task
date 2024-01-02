@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
-  security_groups        = [var.sg]  
+  security_group_id       = [var.sg]  
   subnet_id              = var.subnet_id
   vpc_security_group_ids = [var.vpc_security_group_ids]
   key_name               = var.key_name
