@@ -37,3 +37,9 @@ variable "ami_id" {
  type = string
  default = "ami-0c7217cdde317cfec"
 }
+
+variable "placement_group" {
+  description = "The Placement Group to start the instance in"
+  type        = string
+  default     = null
+}
