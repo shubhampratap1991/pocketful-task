@@ -9,7 +9,7 @@ variable "instance_type" {
 }
 
 variable "sg" {
- type = string
+ type = list
  default = "sg-0cfbd7685166de5a4"
 }
 
@@ -19,7 +19,7 @@ variable "subnet_id" {
 }
 
 variable "vpc_security_group_ids" {
- type = string
+ type = list
  default = "vpc-037b39d85fad3d71b"
 }
 
