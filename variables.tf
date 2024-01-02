@@ -14,8 +14,8 @@ variable "sg" {
 }
 
 variable "subnet_id" {
- type = string
- default = ["subnet-0d5ede46cfd8eef4a"]
+  type = string
+  default = "subnet-0d5ede46cfd8eef4a"  // Remove the square brackets here
 }
 
 variable "vpc_security_group_ids" {
